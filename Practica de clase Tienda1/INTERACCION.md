@@ -1,3 +1,5 @@
+Favor mirar como codigo
+
 Producto 1, ¿cual es el nombre?
 Marcador 
 ¿Qué precio tiene Marcador?

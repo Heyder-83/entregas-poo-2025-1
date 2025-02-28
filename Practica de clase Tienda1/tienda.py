@@ -32,11 +32,11 @@ def solicitar_int(mensaje):
         try:
             return int(input(mensaje))
         except ValueError:
-            print("Porfavor ingrese un numero valido")
+            print("Por favor ingrese un numero valido")
 
 
 def mostrar_resumen(productos):
-    print(">\n Resumen:")
+    print("\n> Resumen:")
     print("-" * 40)
     print("| Producto  | Cantidad     | Precio    |")
     print("-" * 40)
@@ -57,6 +57,8 @@ def run():
 
         producto = Producto(nombre, precio_unitario, cantidad)
         productos.append(producto)  # Almacenar en la lista
+
+    mostrar_resumen(productos)
 
 
 if __name__ == "__main__":
